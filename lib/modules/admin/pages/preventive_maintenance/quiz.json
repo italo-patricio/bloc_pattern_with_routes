@@ -1,0 +1,29 @@
+{
+    "quiz": {
+        "title": "Manutenção Preventiva",
+        "metadata": {
+            "client": "Cliente condominio A",
+            "professional": "Profissional A",
+            "date_opened": "10/09/2019 11:25"
+        },       
+        "questions":[
+            { 
+                "title": "1. Testes operacionais",
+                "steps": [
+                    { 
+                        "step": 0,
+                        "message": "Você deseja incluir alguma partida",
+                        "type_form_response": "form_yes_no",
+                        "repeat": false 
+                    },
+                    { 
+                        "step": 1,
+                        "message": "Inclia as informações de partida/parada",
+                        "type_form_response": "form_input",
+                        "repeat": true 
+                    }
+                ]
+            }
+        ]    
+}
+}

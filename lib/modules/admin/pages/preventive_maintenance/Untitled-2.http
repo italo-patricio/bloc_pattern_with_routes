@@ -1,0 +1,10 @@
+@host= http://localhost:8080/api/v1
+
+
+###Get list users
+GET {{host}}/users HTTP/1.1
+
+
+###Get user by id
+GET {{host}}/users/4 HTTP/1.1
+

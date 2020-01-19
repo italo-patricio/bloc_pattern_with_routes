@@ -1,6 +1,7 @@
-import 'package:estudo_bloc_pattern/modules/counter/fragments/counter_detail.dart';
-import 'package:estudo_bloc_pattern/modules/counter/fragments/counter_main.dart';
 import 'package:flutter/material.dart';
+
+import 'pages/counter_detail.dart';
+import 'pages/counter_main.dart';
 
 class CounterRouter extends StatelessWidget {
   @override

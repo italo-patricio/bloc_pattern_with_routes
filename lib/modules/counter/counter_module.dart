@@ -1,5 +1,4 @@
 import 'package:bloc_pattern/bloc_pattern.dart';
-import 'package:estudo_bloc_pattern/core/module_widget_with_router.dart';
 import 'package:estudo_bloc_pattern/modules/counter/counter_router.dart';
 import 'package:flutter/material.dart';
 
